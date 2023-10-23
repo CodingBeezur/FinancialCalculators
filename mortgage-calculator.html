@@ -87,29 +87,34 @@
                 <p class="text-primary"> Prinicipal Amount </p>
               <div class="input-group">
                 <span class="input-group-text">$</span>
-                <input type="text" >
+                <input type="text" id= "principalAmountText" >
             </div>
 
             <div class="form-group">
                 <p class="text-primary"> Interest Rate  </p>
               <div class="input-group">
                 <span class="input-group-text">% </span>
-                <input type="text" >
+                <input type="text" id = "interestRateText" >
+               
             </div>
 
             <div class="form-group">
                 <p class="text-primary"> Loan Length </p>
               <div class="input-group">
                 <span class="input-group-text">$</span>
-                <input type="text" >
+                <input type="text" id="loanLengthText" >
+                <button class="btn btn-outline-dark" type="button" id="button-addon2">Button</button>
             </div>
+
+            <button class="btn btn-outline-dark mt-3" type="button" id="button-addon2" onclick="monthlyPayment()">Calculate Monthly Payment</button>
+
 
             <!-- Returns -->
             <div class="form-group mt-4">
                 <p class="text-secondary mt-2"> Monthly Payment:  </p>
               <div class="input-group">
                 <span class="input-group-text ">$</span>
-                <input type="text" readonly>
+                <input type="text" id="monthlyPaymentText" readonly>
             </div>
 
             
