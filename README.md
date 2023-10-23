@@ -1,2 +1,2 @@
 # FinancialCalculators
-Financial Calculator for Pluralsight 
+Financial Calculator for Pluralsight
